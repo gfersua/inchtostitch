@@ -1,2 +1,3 @@
 🧵 InchToStitch — Aplicación web para bordadoras. Selecciona el tipo de tela Aida, introduce el número de puntos de ancho y alto, y obtén las medidas en centímetros al instante. Desarrollada con HTML, CSS y JavaScript.
+
 🧵 InchToStitch — A simple web app for cross stitch lovers. Select your Aida fabric count, enter the number of stitches in width and height, and instantly get the measurements in centimetres. Built with HTML, CSS and JavaScript.
