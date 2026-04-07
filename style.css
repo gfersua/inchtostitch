@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+body {
+    background-color: #dbedff;
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    position: absolute;
+    width: 1560px;
+    height: auto;
+    z-index: 1;
+}
+
+#fondo {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.div-formulario {
+    background-color: #499588;
+    width: 600px;
+    height: 370px;
+    margin-right: 100px;
+    border-radius: 20px;
+    z-index: 300;
+    padding: 30px 40px;
+    box-sizing: border-box;
+}
+
+.div-formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.div-formulario label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 6px;
+}
+
+.div-formulario select,
+.div-formulario input {
+    width: 100%;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    background-color: #f0faf8;
+    color: #2d6b61;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.div-formulario select:focus,
+.div-formulario input:focus {
+    background-color: #ffffff;
+    box-shadow: 0 0 0 2px #2d6b61;
+}
+
+.div-formulario button {
+    margin-top: 14px;
+    padding: 12px;
+    background-color: #2d6b61;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.div-formulario button:hover {
+    background-color: #1e4f47;
+}
+
+.div-resultado {
+    background-color: whitesmoke;
+    width: 230px;
+    height: 200px;
+    border: 1px solid #499588;
+    border-radius: 20px;
+    z-index: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #2d6b61;
+    font-weight: 600;
+}
+
+.resultado-contenido {
+    text-align: center;
+}
+
+.resultado-titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: #499588;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.resultado-linea {
+    font-size: 15px;
+    color: #444;
+    margin: 4px 0;
+}
+
+.resultado-linea span {
+    font-weight: 700;
+    color: #2d6b61;
+}

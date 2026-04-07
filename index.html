@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>InchToStitch</title>
+  </head>
+
+  <body>
+    <div id="fondo">
+      <img src="background.png" alt="fondo" />
+
+      <div class="box">
+        <div class="div-formulario">
+          <form action="">
+
+            <label for="aida">Tipo de tela Aida:</label>
+            <select id="aida" name="aida">
+              <option value="6">Aida 6</option>
+              <option value="8">Aida 8</option>
+              <option value="11">Aida 11</option>
+              <option value="14" selected>Aida 14</option>
+              <option value="16">Aida 16</option>
+              <option value="18">Aida 18</option>
+              <option value="22">Aida 22</option>
+              <option value="28">Aida 28</option>
+            </select>
+
+            <label for="puntos-ancho">Puntos de ancho:</label>
+            <input
+              type="number"
+              id="puntos-ancho"
+              name="puntos-ancho"
+              min="1"
+              placeholder="Ej: 140"
+            />
+
+            <label for="puntos-alto">Puntos de alto:</label>
+            <input
+              type="number"
+              id="puntos-alto"
+              name="puntos-alto"
+              min="1"
+              placeholder="Ej: 98"
+            />
+
+            <button type="button" onclick="calcular()">Calcular</button>
+
+          </form>
+        </div>
+
+        <div class="div-resultado" id="resultado"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
