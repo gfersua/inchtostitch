@@ -14,9 +14,9 @@ function calcular() {
 
     document.getElementById("resultado").innerHTML = `
         <div class="resultado-contenido">
-            <p class="resultado-titulo">Resultado</p>
-            <p class="resultado-linea">Ancho: <span>${cmAncho.toFixed(2)} cm</span></p>
-            <p class="resultado-linea">Alto: <span>${cmAlto.toFixed(2)} cm</span></p>
+            <p class="resultado-titulo">Resultado/Result</p>
+            <p class="resultado-linea">Ancho/Width: <span>${cmAncho.toFixed(2)} cm</span></p>
+            <p class="resultado-linea">Alto/Height: <span>${cmAlto.toFixed(2)} cm</span></p>
         </div>
     `;
 }
